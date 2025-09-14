@@ -961,6 +961,29 @@ blockquote {
     font-style: italic;
 }
 
+.prototype-outcome {
+    background: var(--beige-light);
+    padding: 1.5rem;
+    border-radius: 10px;
+    margin: 1.5rem 0;
+    border-left: 3px solid var(--accent-purple);
+}
+
+.prototype-outcome p {
+    margin: 0.5rem 0;
+    font-size: 0.95rem;
+}
+
+.prototype-outcome strong {
+    color: var(--accent-purple);
+}
+
+.prototype-outcome .tech-note {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
 /* Standout Note Styling */
 .standout-note {
     background: linear-gradient(135deg, rgba(255, 77, 79, 0.05), rgba(147, 51, 234, 0.05));
