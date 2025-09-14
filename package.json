@@ -1,0 +1,11 @@
+{
+  "name": "gtm-ai-presentation",
+  "version": "1.0.0",
+  "description": "GTM AI Triangle Summit Presentation",
+  "scripts": {
+    "start": "npx serve -s . -l 8000"
+  },
+  "dependencies": {
+    "serve": "^14.2.0"
+  }
+}
